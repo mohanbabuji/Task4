@@ -8,12 +8,27 @@ body {
     font-size: 100px;
     background-color:whitesmoke;
   }
+  .heading{
+      display: flex;
+      justify-content: space-between; 
+      background-color: rgb(255, 255, 255);
+    border-color: rgb(166, 221, 240);
+  }
+  .heading a{
+      font-size: 24px;
+      padding-top: 15px;
+      text-decoration: none;
+      color: crimson;
+  }
+  .heading a:hover{
+     
+      color: rgba(34, 116, 238, 0.808);
+  }
 h1{
    
     text-align: center;
     color:crimson;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(166, 221, 240);
+   
 }
 h3{
     text-align: center;
